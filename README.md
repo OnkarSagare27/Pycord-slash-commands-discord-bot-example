@@ -7,3 +7,12 @@ Pycord
 - A fork of discord.py. Pycord is a modern, easy to use, feature-rich, and async ready API wrapper for Discord written in Python.
 - [Github](https://github.com/Pycord-Development/pycord)
 - [Documentation](https://docs.pycord.dev/en/master/index.html)
+
+Setup
+------------
+Replace your discord bot token in 
+```json
+{
+  "token": "YOUR BOT TOKEN"
+}
+```

@@ -5,4 +5,4 @@ A discord bot slash commands example using pycord (A python wrapper for the Disc
 Pycord
 ------------
 - A fork of discord.py. Pycord is a modern, easy to use, feature-rich, and async ready API wrapper for Discord written in Python.
-- `Github <https://github.com/Pycord-Development/pycord>`_
+- `Documentation <[https://docs.pycord.dev/en/master/index.html](https://github.com/Pycord-Development/pycord)>`

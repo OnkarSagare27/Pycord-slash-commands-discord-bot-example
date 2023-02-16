@@ -15,7 +15,6 @@ class TestCommancOne(commands.Cog):
         self.bot = bot_
 
     @commands.slash_command(description="A normal slash command example which takes discord member as a command parameter", guild_only=True)
-    @discord.default_permissions(manage_messages=True, ban_members=True)
     @option("member", description="Select member or enter member id")
     async def testcommandone(self, ctx: discord.ApplicationContext, member: discord.Member):
         await ctx.respond(f"{ctx.interaction.user.mention} Hello! this is a test command with a member as a paramater i.e {member.mention}")

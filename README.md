@@ -19,6 +19,7 @@ Setup
 ------------
 • Fork this repo
 • Replace your discord bot token in ``config.json``
+
 ```json
 {
   "token": "YOUR BOT TOKEN"

@@ -21,7 +21,7 @@ class TestCommancOne(commands.Cog):
 
     @commands.Cog.listener()
     async def on_application_command_error(self, ctx: discord.ApplicationContext, error: discord.DiscordException):
-        if isinstance(error, commands.NotFound):
+        if isinstance(error, commands.MemberNotFound):
             await ctx.respond("Not found error triggered.")
         else:
             raise error

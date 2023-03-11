@@ -17,8 +17,8 @@ py -3 -m pip install -U py-cord
 
 Setup
 ------------
-• Fork this repo
-• Replace your discord bot token in ``config.json``
+- Fork this repo
+- Replace your discord bot token in ``config.json``
 
 ```json
 {

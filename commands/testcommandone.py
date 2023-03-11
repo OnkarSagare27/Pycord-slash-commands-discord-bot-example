@@ -22,7 +22,7 @@ class TestCommancOne(commands.Cog):
     @commands.Cog.listener()
     async def on_application_command_error(self, ctx: discord.ApplicationContext, error: discord.DiscordException):
         if isinstance(error, commands.NotFound):
-            await ctx.respond("The member id you've entered is not valid")
+            await ctx.respond("Not found error triggered.")
         else:
             raise error
 

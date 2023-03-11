@@ -12,7 +12,7 @@ Pycord
 #### Windows
 
 ```sh
-pip install py-cord
+py -3 -m pip install -U py-cord
 ```
 
 Setup
